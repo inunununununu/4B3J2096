@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="個人設計作品集，分享插畫、包裝與創作。">
+  <title>YONGQING PORTFOLIO</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- 頂部導覽列 -->
+  <header class="header">
+    <a class="logo" href="#home">
+      <img class="logo-icon" src="images/icon.png" alt="">
+      <span class="logo-name">YONGQING</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="開啟導覽選單" aria-expanded="false"
+      aria-controls="navMenu">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav" id="navMenu">
+      <a href="#home">首頁 <span>01</span></a>
+      <a href="#illustration">插畫作品 <span>02</span></a>
+      <a href="#packaging">包裝作品 <span>03</span></a>
+      <a href="#other">其他作品 <span>04</span></a>
+      <a href="#interests">興趣 <span>05</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 首頁 -->
+    <section class="hero section" id="home">
+      <div class="hero-top">
+        <span class="eyebrow">WELCOME TO MY WORLD</span>
+        <span class="hero-date">DESIGN / ART / LIFE</span>
+      </div>
+
+      <div class="hero-content">
+        <p class="hero-small">HELLO, I'M YONGQING<span class="orange-dot">.</span>
+        </p>
+        <div class="hero-title-row">
+          <h1>你好，<br>我是<span class="hero-name">張詠晴</span><span class="orange-dot">.</span></h1>
+          <img class="hero-icon" src="images/icon.png" alt="個人代表圖示">
+        </div>
+        <h2>一位喜歡觀察生活的設計創作者。</h2>
+
+        <p class="hero-description">
+          歡迎來到我的個人作品集！<br>
+          這裡收藏了我的設計作品、創作靈感，<br>
+          以及生活中那些讓我感到有趣的事物。
+        </p>
+
+        <a class="text-link" href="#illustration">
+          探索我的作品 <span>↘</span>
+        </a>
+      </div>
+
+      <div class="hero-bottom">
+        <span>PERSONAL PORTFOLIO</span>
+        <span>SCROLL TO EXPLORE ↓</span>
+      </div>
+    </section>
+
+    <!-- 插畫作品：3 格 -->
+    <section class="section portfolio-section" id="illustration">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">01 / ILLUSTRATION</span>
+          <h2>插畫作品<span class="orange-dot">.</span></h2>
+        </div>
+        <p>用線條與色彩，描繪腦海中的想像。</p>
+      </div>
+
+      <div class="work-grid grid-3">
+        <article class="work-card">
+          <a class="work-image" href="images/illustration-01.png"
+             aria-label="插畫作品一">
+            <img src="images/illustration-01.png"
+                 alt="插畫作品一"
+                 loading="lazy">
+            <span class="image-number">ILLUSTRATION 01</span>
+          </a>
+          <div class="work-info">
+            <h3>插畫－全身</h3>
+            <p>作品利用逆光效果，營造出神秘而富有層次感的視覺效果。</p>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <a class="work-image" href="images/illustration-02.png"
+             aria-label="插畫作品二">
+            <img src="images/illustration-02.png"
+                 alt="插畫作品二"
+                 loading="lazy">
+            <span class="image-number">ILLUSTRATION 02</span>
+          </a>
+          <div class="work-info">
+            <h3>插畫－半身</h3>
+            <p>讓人物擺出貓咪耳朵姿勢看起來更可愛</p>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <a class="work-image" href="images/illustration-03.png"
+             aria-label="插畫作品三">
+            <img src="images/illustration-03.png"
+                 alt="插畫作品三"
+                 loading="lazy">
+            <span class="image-number">ILLUSTRATION 03</span>
+          </a>
+          <div class="work-info">
+            <h3>插畫－半身</h3>
+            <p>用簡單的背景襯托出人物，讓人物看起來更顯眼</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 包裝作品：2 格 -->
+    <section class="section portfolio-section alternate"
+      id="packaging">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">02 / PACKAGING</span>
+          <h2>包裝作品<span class="orange-dot">.</span></h2>
+        </div>
+        <p>讓設計融入生活，創造有趣的視覺體驗。</p>
+      </div>
+
+      <div class="work-grid grid-2">
+        <article class="work-card">
+          <a class="work-image" href="images/packaging-01.jpg"
+             aria-label="包裝作品一">
+            <img src="images/packaging-01.jpg"
+                 alt="包裝作品一"
+                 loading="lazy">
+            <span class="image-number">PACKAGING 01</span>
+          </a>
+          <div class="work-info">
+            <h3>系列包裝一</h3>
+            <p>以柔和的粉彩色系與幾何切割呈現包裝的層次感，透過開盒的方式，營造拆開禮物般的驚喜感受。</p>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <a class="work-image" href="images/packaging-02.jpg"
+             aria-label="包裝作品二">
+            <img src="images/packaging-02.jpg"
+                 alt="包裝作品二"
+                 loading="lazy">
+            <span class="image-number">PACKAGING 02</span>
+          </a>
+          <div class="work-info">
+            <h3>系列包裝二</h3>
+            <p>延續系列的色彩風格，以不同水果口味作為設計發想，搭配可愛的圖案與層疊式包裝，讓整體更有活潑且豐富的視覺效果。</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 其他作品：3 格 -->
+    <section class="section portfolio-section" id="other">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">03 / OTHER WORKS</span>
+          <h2>其他作品<span class="orange-dot">.</span></h2>
+        </div>
+        <p>不同形式的嘗試，記錄每一次創作的可能。</p>
+      </div>
+
+      <div class="work-grid grid-3">
+        <article class="work-card">
+          <a class="work-image" href="images/other-01.jpg" aria-label="其他作品一">
+            <img src="images/other-01.jpg"
+                 alt="其他作品一" loading="lazy">
+            <span class="image-number">OTHER 01</span>
+          </a>
+          <div class="work-info">
+            <h3>攝影</h3>
+            <p>紀錄下生活中的每一刻</p>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <a class="work-image" href="images/other-02.jpg" aria-label="其他作品二">
+            <img src="images/other-02.jpg"
+                 alt="其他作品二" loading="lazy">
+            <span class="image-number">OTHER 02</span>
+          </a>
+          <div class="work-info">
+            <h3>紙雕</h3>
+            <p>夜晚中嚎叫的孤狼</p>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <a class="work-image" href="images/other-03.jpg" aria-label="其他作品三">
+            <img src="images/other-03.jpg"
+                 alt="其他作品三" loading="lazy">
+            <span class="image-number">OTHER 03</span>
+          </a>
+          <div class="work-info">
+            <h3>3D</h3>
+            <p>利用maya製作出真實房間的樣子</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 興趣：2 格 -->
+    <section class="section portfolio-section alternate"
+      id="interests">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">04 / MY INTERESTS</span>
+          <h2>興趣<span class="orange-dot">.</span></h2>
+        </div>
+        <p>生活裡的喜好，也是創作靈感的來源。</p>
+      </div>
+
+      <div class="work-grid grid-3">
+        <article class="work-card">
+          <a class="work-image" href="images/interest-01.png"
+             aria-label="興趣一">
+            <img src="images/interest-01.png"
+                 alt="興趣照片一" loading="lazy">
+            <span class="image-number">MY LIFE 01</span>
+          </a>
+          <div class="work-info">
+            <h3>漫畫－境界觸發者</h3>
+            <p>這是一部我特別喜歡的漫畫，主要是描述異次元的侵略者與普通世界的人的故事，喜歡看群像對戰的人很推薦去看看這部作品。</p>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <a class="work-image" href="images/interest-02.png"
+             aria-label="興趣二">
+            <img src="images/interest-02.png"
+                 alt="興趣照片二" loading="lazy">
+            <span class="image-number">MY LIFE 02</span>
+          </a>
+          <div class="work-info">
+            <h3>遊戲－ディズニー スパークリンク・スターズ</h3>
+            <p>一款結合益智消消樂的手遊，有多達15位角色可以讓你選擇並且觀看他們各自的故事，遊戲中也有拍照環節，可以拍出一些奇妙的神照。</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 結尾 -->
+    <section class="closing section">
+      <span class="eyebrow">THANK YOU FOR VISITING</span>
+      <h2>CONNECT<span class="orange-dot">!</span></h2>
+      <p>Email:4B3J2096@stust.edu.tw</p>
+      <a class="text-link" href="#home">回到首頁 ↑</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#home">
+      <img class="logo-icon" src="images/icon.png" alt="">
+      <span class="logo-name">YONGQING</span>
+    </a>
+    <p>DESIGNED WITH CURIOSITY © <span id="year"></span></p>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+  <dialog class="image-preview" id="imagePreview"
+    aria-label="作品圖片預覽">
+    <button class="image-preview-close" type="button"
+      aria-label="關閉圖片預覽">×</button>
+    <img class="image-preview-content" id="imagePreviewContent" alt="">
+  </dialog>
+
+  <button class="back-to-top" id="backToTop"
+    aria-label="回到頁面頂部">↑</button>
+</body>
+</html>
